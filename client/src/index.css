@@ -1,0 +1,127 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+ul li {
+  color: rgb(241, 232, 232);
+}
+ul li:hover {
+  color: wheat;
+}
+ul li a {
+  color: rgb(241, 232, 232);
+  text-decoration: none;
+}
+ul li a:hover {
+  color: wheat;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.form input {
+  padding: 10px;
+  width: 100%;
+  box-shadow: 1px 1px 5px grey;
+  border: 2px solid grey;
+  border-radius: 5px;
+}
+.form button {
+  width: 300px;
+  padding: 10px;
+}
+
+table {
+  margin-top: 30px;
+}
+table,
+tr,
+td,
+th {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+td,
+th {
+  padding: 3px 8px;
+}
+.remove-all-margin {
+  margin: 0 !important;
+}
+
+.buttonSend {
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  text-transform: capitalize;
+  background-color: #0f4c63;
+}
+.buttonSend:hover {
+  background-color: #063146;
+}
+.packed {
+  background-color: #24a86a;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  text-transform: capitalize;
+}
+.packed:hover {
+  background-color: #166f46;
+}
+.shiped {
+  background-color: #d76c37;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  text-transform: capitalize;
+}
+.shiped:hover {
+  background-color: #a73f0c;
+}
+.ofd {
+  background-color: #0f4c63;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  text-transform: capitalize;
+}
+.ofd:hover {
+  background-color: #063146;
+}
+
+.delivered {
+  color: green;
+}
+
+.packedText {
+  color: #24a86a;
+  text-transform: capitalize;
+}
+.deliveredText {
+  text-transform: capitalize;
+  color: green;
+}
+.shipedText {
+  text-transform: capitalize;
+  color: #a2d737;
+}
+.ofdText {
+  text-transform: capitalize;
+  color: #0f4c63;
+}

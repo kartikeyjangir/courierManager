@@ -1,0 +1,29 @@
+.mainpage {
+  margin: 0px !important;
+  max-width: 100% !important;
+}
+
+.mainLeft {
+  padding: 0px !important;
+  /* position: fixed; */
+  background-color: #042331;
+  /* background: url("../../Img/sidebar-2.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  box-shadow: inset 0px 0px 100px rgb(15, 1, 1); */
+  height: 100vh;
+}
+
+.mainContent {
+  background-color: whitesmoke;
+  padding: 30px;
+  height: 100vh;
+  overflow-y: scroll;
+}
+.mainheader {
+  background-color: #4451c7;
+
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+}

@@ -1,0 +1,11 @@
+.buttonSend {
+  background-color: #063146;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  text-transform: capitalize;
+}
+.buttonSend:hover {
+  background-color: #0f4c63;
+}

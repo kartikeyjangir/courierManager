@@ -1,0 +1,36 @@
+
+.mainlogindiv {
+  padding: 60px 0px;
+  margin: 0 !important;
+  max-width: 100% !important;
+  height: 100vh !important;
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(120deg,#2980b9,#042331);;
+  align-items: center;
+}
+
+.loginform {
+  background-color: white;
+  width: 400px;
+  border-radius: 10px;
+  padding: 20px 0 30px;
+
+}
+.loginform input{
+  width: 300px !important;
+  margin:25px 0 10px;
+
+}
+
+.loginform h1{
+  width: 100%;
+  text-align: center;
+  padding: 0 0 20px 0;
+  border-bottom: 1px solid silver;
+}
+
+.loginform Button{
+  width: 300px !important;
+  margin-bottom: 25px;
+}
